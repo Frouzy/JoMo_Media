@@ -1,0 +1,231 @@
+/*Carousel*/
+
+#sectieSlide {
+  height: 80%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url("../images/slide1.jpg");
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+
+#titleSlide {
+    color: red;
+    font-family: "News Cycle", sans-serif;
+    font-size: 80px;
+    margin-top: 150px;
+}
+
+#scroller {
+    height: 60px;
+    background-color: none;
+    text-align: center;
+}
+
+#jump {
+    padding-top: 30px;
+    outline: none;
+}
+#jump a:link, #jump a:visited {
+    color: DarkSlateGrey;
+    text-decoration: none;
+}
+
+#jump a:hover {
+    color: red;
+}
+
+/*header one*/
+
+#header {
+    background-color: DarkSlateGrey;
+    opacity: 0.7;
+    width: 70%;
+    height: 60%;
+    border-radius: 10px;
+    margin: 75px auto;
+ 
+}
+
+#header h1 {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
+
+#header h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#header h3 h4 {
+    text-align: left;
+    padding: 20px;
+    color: black;
+}
+
+#header a {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#header a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/*Header Two*/
+
+#background-two {
+    background-image: url(../images/photo1.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    overflow: hidden;
+    height: 600px;
+    clear: left;
+}
+
+#box-two {
+    text-align: center;
+    background-color: DarkSlateGrey;
+    opacity: 0.7;
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    margin: 200px auto;
+}
+
+div.scroll {
+    align-content: center;
+    height: 300px;
+    overflow: scroll;
+    color: white;
+    position: relative;
+}
+
+#scroll h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#scroll h4 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+#scroll a {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#scroll a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.container-fluid h1 {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 450%;
+}
+
+
+.text-container p {
+    font-size: 200%
+}
+
+/*Contact*/
+
+.contact-container {
+  padding: 60px 0 0 0;
+  background-position: center; 
+  height: calc(100vh - 80px);
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+
+.contact {
+  background-color: DarkSlateGrey;
+  display: inline-block;
+  margin: 60px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.contact p {
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.contact address {
+  font-style: normal;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.contact iframe {
+  width: 100%;
+  height: 150px;
+  margin: 40px 0 0 0;
+}
+
+
+.columnContact {
+     background-color: white;
+     float: left;
+     width: 600px;
+     height: 485px;
+     display: inline-block;
+     margin: 60px;
+     border-radius: 10px;
+     padding: 50px;
+}
+
+.columncontact p {
+    color: black;
+}
+
+.columncontact h3 {
+    color: black;
+}
+/*Sectie*/
+#sectie {
+    background-image: none;
+    background-position: center bottom;
+    background-size: cover;
+    overflow: hidden;
+    height: 690px;
+}
+
+ 
+
+@media screen and (max-width: 760px) {
+    #header {
+        display: none;
+       
+    }
+
+    .columnContact {
+        width: 338px;
+        margin-left: 25px;
+        margin-top: 0px;
+
+
+}
+
+
+}
