@@ -82,11 +82,18 @@
 
 @media screen and (max-width: 760px) {
 
+#background {
+    height: 750px;
+}
 
 #header1 {
-        display: none;
-       
-    }
+    width: 70%;
+    height: 65%;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
 
 #header {
         height: 1750px;

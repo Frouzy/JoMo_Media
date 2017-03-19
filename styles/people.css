@@ -158,14 +158,16 @@ button:hover {
 
 #background {
     background-image: url("../images/slide4.jpg");
-    
+    height: 850px;
 }
-
 
 #header {
-        display: none;
-       
+    width: 70%;
+    height: 85%;
+    margin-top: 150px;
+
 }
+
 
 #team {
     height: 600px;
@@ -180,8 +182,7 @@ button:hover {
     margin-bottom: 85px;
     margin-top: 110px;
     margin-left: 5px;
-
-   
+ 
 
 }
 
