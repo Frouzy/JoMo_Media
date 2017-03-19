@@ -71,7 +71,7 @@ figure img {
 #team h1, h2 {
     font-weight: bold;
     font-family: "Source Code Pro", monospace;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
@@ -80,10 +80,13 @@ figure img {
  
 }
 
-#book {
+#member {
     position: relative;
 }
 
+#member2 {
+    position: relative;
+}
 
 button {
     background-color: DarkSlateGrey;
@@ -142,7 +145,7 @@ button:hover {
 
 
 
-/*class @bestsellers*/
+/*class team*/
 .col-sm-4 {
     text-align: center;
     border-radius: 10px;
@@ -152,14 +155,50 @@ button:hover {
 }
 
 @media screen and (max-width: 760px) {
-    #header {
+
+#background {
+    background-image: url("../images/slide4.jpg");
+    
+}
+
+
+#header {
         display: none;
        
-    }
-    
-    #team {
-        display: none;
-    }
-  
+}
+
+#team {
+    height: 600px;
+    background-color: white;
+    margin-bottom: 500px;
+    margin-top: 0px;
+}
+
+.thumbnails img {
+    height: -280px;
+    width: 210px;
+    margin-bottom: 85px;
+    margin-top: 110px;
+    margin-left: 5px;
+
+   
+
+}
+
+.slideText {
+    width: 210px;
+    bottom: -80px;
+    margin-left: 15px;
+
+}
+
+button {
+    width: 210px;
+    margin-left: -25px;
+}
+
+#member2 {
+     display: none;
+}
 
 }

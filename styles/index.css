@@ -214,16 +214,16 @@ div.scroll {
  
 
 @media screen and (max-width: 760px) {
-    #header {
+    
+#header {
         display: none;
        
     }
 
-    .columnContact {
+.columnContact {
         width: 338px;
         margin-left: 25px;
         margin-top: 0px;
-
 
 }
 
