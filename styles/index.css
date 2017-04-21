@@ -1,23 +1,40 @@
 /*Carousel*/
 
-#sectieSlide {
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.slide {
   height: 80%;
   width: 100%;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: url("../images/slide1.jpg");
   background-size: cover;
   background-position: center center;
   text-align: center;
 }
 
-#titleSlide {
+#slideOne {
+  background-image: url("../images/slide1.jpg");
+}
+#slideTwo {
+  background-image: url("../images/work4.jpg");
+}
+#slideThree {
+  background-image: url("../images/slide3.jpg");
+}
+#slideFour {
+  background-image: url(../images/slide4.jpg);
+}
+
+.titleSlide {
     color: red;
     font-family: "News Cycle", sans-serif;
     font-size: 80px;
     margin-top: 150px;
 }
 
+/*scroller*/
 #scroller {
     height: 60px;
     background-color: none;
@@ -202,15 +219,6 @@ div.scroll {
 .columncontact h3 {
     color: black;
 }
-/*Sectie*/
-#sectie {
-    background-image: none;
-    background-position: center bottom;
-    background-size: cover;
-    overflow: hidden;
-    height: 690px;
-}
-
  
 
 @media screen and (max-width: 760px) {
@@ -220,10 +228,13 @@ div.scroll {
        
     }
 
+#contact {
+  margin: 0px;
+}
+
 .columnContact {
-        width: 338px;
-        margin-left: 25px;
-        margin-top: 0px;
+      width: 338px;
+      margin: 0px;
 
 }
 

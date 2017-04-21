@@ -1,0 +1,50 @@
+.box1	{
+  background-color: orange;
+  width: 200px;
+  height: 200px;
+  /*transform: translate(50px, 100px) rotate(-30deg) skewX(60deg) skewY(40deg);*/
+ /*Je moet alles achter elkaar zetten, anders overschrijft hij de voorgaande*/
+ transition: 10s width, 2s height;
+}
+
+.box1:hover	{
+  width: 400px;
+  height: 100px;
+}
+/*
+.box	{
+  transition: 10s width 2s height;
+}*/
+
+/*box2*/
+
+..box2{
+  background-color: #CCCC33;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+
+}
+.box2:hover{
+  width: 400px;
+  height: 100px;
+  background-color: #0E0EFF;
+
+}
+.box2{
+	 transition: width 10s ease;
+}
+/*box3*/
+
+.box3{
+  background-color: orange;
+  width: 200px;
+  height: 100px;
+}
+.box3:hover{
+  width: 400px;
+  height: 100px;
+}
+.box3{
+  transition: 5s width ease-in;
+}
